@@ -214,18 +214,32 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		</div>
 		<!-----//header-section----->
 		<!----features----->
+		<script src='../js/hello.js'></script>
 		<div id="fea" class="features">
 			<div class="container">
 				<div class="section-head text-center">
 					<h3><span class="frist"> </span>Foursquare<span class="second"> </span></h3>
 					<p>Don't want to download Movement but still want to contribute your venues to the CSCW display? Use your Foursquare account!</p>
+					
+
 					<div class="big-btns">
-							<a class="view" href="https://foursquare.com/oauth2/authenticate
-    ?client_id=THHFPKDIHWFF0LPYZO4JCI2GRWXDWMWOODNIHXWKKPO4GI3L
-    &response_type=code
-    &redirect_uri=https://api.foursquare.com/v2/venues/%s?client_id=%s&client_secret=%s&ll=%f,%f&limit=%i&v=%s"><label> </label>Login with Foursquare</a>
+						
+							<a class="view" ><button onclick="hello('windows').login()"><label> </label>Login with Foursquare</button></a>
 					</div>
 				</div>
+
+				<script>
+hello.on('auth.login', function(r){
+	// Get Profile
+	console.log("auth.login");
+	hello.api(r.network+':/me', function(p){
+		document.getElementById(r.network).innerHTML = "<img src='"+ p.thumbnail + "' width=24/>Connected to "+ r.network+" as " + p.name;
+	});
+});
+hello.init({
+	foursquare : 'FDR014HMCPJXFXVWAXK0MOE5HENT4M41XOLXSMQQSLEI55UY3'
+},	{redirect_uri:'http://s.tech.nyc/movement'});
+</script>
 				<!----features-grids----->
 						
 					</div><!---end-features-grid---->
@@ -327,7 +341,28 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				<div class="container">
 					<div class="section-head text-center">
 						<h3><span class="frist"> </span>ABOUT<span class="second"> </span></h3>
-						<p>Movement was designed and developed by the <a href="s.tech.nyc" target="blank">Social Technologies Lab</a> at <a href="tech.cornell.edu" target="blank">Cornell Tech</a>. This work was funded by AOL through the <a href="connectedexperiences.org" target="blank">Connected Experiences Laboratory.</a></p>
+						<p>The proliferation of mobile devices and popularity of applications like Facebook and Twitter has allowed people to
+
+stay connected to their far-spread networks. However, little
+
+attention has been spent on connections in the local, physical community. These collocated connections are important
+
+for building social capital, sharing resources, and providing
+
+physical support. Movement is a visualization that uses location data generated automatically by mobile devices to
+
+increase community awareness following a new standard
+
+of privacy preservation. Movement also consists of an app
+
+that allows for direct connection to people with shared location histories, again in a secure and private manner. As an
+
+integrated demo at CSCW, Movement displays the popular venues
+
+visited by conference attendees and allow users to connect
+
+with others who visited the same locations. </p><p>To learn more about the project, read our <a href="movement_camera_ready.pdf" target="blank">CSCW demo submission.</a></p>
+						<p>Movement was designed and developed by the <a href="http://s.tech.nyc" target="blank">Social Technologies Lab</a> at <a href="tech.cornell.edu" target="blank">Cornell Tech</a>. <br>This work was funded by AOL through the <a href="http://www.connectedexperiences.org" target="blank">Connected Experiences Laboratory.</a></p>
 					</div>
 				</div>
 				<!----team-members---->
@@ -343,14 +378,14 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						</div><!--- end-team-member --->
 						<div class="col-md-3 team-member">
 							<div class="team-member-info">
-								<a href="tech.cornell.edu" target="blank"><img class="member-pic" src="images/Horizontal Cornell + Jacobs - Black.png" title="Cornell Tech" /></a>
+								<a href="http://tech.cornell.edu" target="blank"><img class="member-pic" src="images/Horizontal Cornell + Jacobs - Black.png" title="Cornell Tech" /></a>
 									</ul>
 								</label>
 							</div>
 						</div><!--- end-team-member --->
 						<div class="col-md-3 team-member">
 							<div class="team-member-info">
-								<a href="aol.com" target="blank"><img class="member-pic" src="images/aol-logo.png" title="AOL" /></a>
+								<a href="http://www.aol.com" target="blank"><img class="member-pic" src="images/aol-logo.png" title="AOL" /></a>
 									
 								</label>
 							</div>
@@ -388,13 +423,18 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					<p>CSCW marks the first release of Movement, so please let us know what you think so that we can incorporate your feedback into future iterations. Thank you for testing it out!</p>
 				</div>
 				<!---->
+
+<
+
 				<div class="col-md-9 getintouch-left">
 					<div class="contact-form col-md-10">
 						<h3>Let Us Know What You Think!</h3>
-						<form>
-							<input type="text" placeholder="Name" required />
-							<input type="text"  placeholder="Email" required />
-							<textarea placeholder="Message" required /> </textarea>
+
+
+						<form enctype="text/plain" method="post" action="MAILTO:s.tech.cornell@gmail.com">
+							<input type="text" name="name" placeholder="Name" required />
+							<input type="text" name="email" placeholder="Email" required  />
+							<textarea name="message" placeholder="Message" required></textarea>
 							<input type="submit" value="Send message" />
 						</form>
 					</div>
@@ -430,20 +470,20 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 							<input type="text" placeholder="" required />
 							<input type="submit" value="" />
 						</form>
-						<p>Get the latest updates on what we're working on at the Social Tech Lab.</p>
+						<p>Get the latest updates on what we're working on at the <a href="http://s.tech.nyc" target="blank">Social Tech Lab.</a></p>
 					</div>
 					<div class="col-md-3 footer-grid explore">
 						<h3>More About Us</h3>
 						<ul class="col-md-10">
-							<li><a href="s.tech.nyc" target="blank">Social Tech Lab</a></li>
-							<li><a href="connectedexperiences.org" target="blank">Connected Experiences Lab</a></li>
-							<li><a href="tech.cornell.edu" target="blank">Cornell Tech</a></li>
-							<li><a href="aol.com" target="blank">AOL</a></li>
+							<li><a href="http://s.tech.nyc" target="blank">Social Tech Lab</a></li>
+							<li><a href="http://www.connectedexperiences.org" target="blank">Connected Experiences Lab</a></li>
+							<li><a href="http://tech.cornell.edu" target="blank">Cornell Tech</a></li>
+							<li><a href="http://www.aol.com" target="blank">AOL</a></li>
 						</ul>
 						<div class="clearfix"> </div>
 					</div>
 					<div class="col-md-3 footer-grid copy-right">
-						<p class="copy"> © 2016 Cornell Tech. All rights reserved. </p>
+						<p class="copy"> © 2016 Cornell Tech. </p><p>All rights reserved. </p>
 					</div>
 					<div class="clearfix"> </div>
 					<script type="text/javascript">
