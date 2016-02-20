@@ -1,3 +1,21 @@
+<?php 
+if(isset($_POST['submit'])){
+    $to = "yx348@cornell.edu";
+    $from = $_POST['email']; // this is the sender's Email address
+    $name = $_POST['name'];
+    $subject = "Form submission";
+    $subject2 = "Copy of your form submission";
+    $message = $name . " wrote the following:" . "\n\n" . $_POST['message'];
+    $message2 = "Here is a copy of your message " . $name . "\n\n" . $_POST['message'];
+
+    $headers = "From:" . $from;
+    $headers2 = "From:" . $to;
+    mail($to,$subject,$message,$headers);
+    mail($from,$subject2,$message2,$headers2); // sends a copy of the message to the sender
+    echo "Mail Sent. Thank you " . $name . ", we will contact you shortly.";
+    }
+?>
+
 <!--
 Author: W3layouts
 Author URL: http://w3layouts.com
@@ -429,11 +447,18 @@ with others who visited the same locations. </p><p>To learn more about the proje
 						<h3>Let Us Know What You Think!</h3>
 
 
-						<form enctype="text/plain" method="post" action="MAILTO:s.tech.cornell@gmail.com">
+<!-- 						<form enctype="text/plain" method="post" action="MAILTO:s.tech.cornell@gmail.com">
 							<input type="text" name="name" placeholder="Name" required />
 							<input type="text" name="email" placeholder="Email" required  />
 							<textarea name="message" placeholder="Message" required></textarea>
 							<input type="submit" value="Send message" />
+						</form> -->
+
+						<form action="" method="post">
+							<input type="text" name="name" placeholder="Name" required >
+							<input type="text" name="email" placeholder="Email" required >
+							<textarea rows="5" name="message" placeholder="Message" required ></textarea>
+							<input type="submit" name="submit" value="Send message">
 						</form>
 					</div>
 					<!--<ul class="footer-social-icons col-md-2 text-center">
