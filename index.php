@@ -1,5 +1,5 @@
 <?php 
-if(isset($_POST['submit'])){
+if(isset($_POST['submit'])) {
     $to = "s.tech.cornell@gmail.com";
     $from = $_POST['email']; // this is the sender's Email address
     $name = $_POST['name'];
@@ -13,7 +13,7 @@ if(isset($_POST['submit'])){
     mail($to,$subject,$message,$headers);
     mail($from,$subject2,$message2,$headers2); // sends a copy of the message to the sender
     echo "Mail Sent. Thank you " . $name . ", we will contact you shortly.";
-    }
+  }
 ?>
 
 <!--
