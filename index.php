@@ -392,34 +392,20 @@ with others who visited the same locations. </p><p>To learn more about the proje
 									</ul>
 								</label>
 							</div>
-						</div><!--- end-team-member --->
+						</div>
 						<div class="col-md-3 team-member">
 							<div class="team-member-info">
 								<a href="http://tech.cornell.edu" target="blank"><img class="member-pic" src="images/Horizontal Cornell + Jacobs - Black.png" title="Cornell Tech" /></a>
 									</ul>
 								</label>
 							</div>
-						</div><!--- end-team-member --->
+						</div>
 						<div class="col-md-3 team-member">
 							<div class="team-member-info">
-								<a href="http://www.aol.com" target="blank"><img class="member-pic" src="images/aol-logo.png" title="AOL" /></a>
-									
+								<a href="http://www.aol.com" target="blank"><img class="logos" src="images/aol-logo.png" title="AOL" /></a>
 								</label>
 							</div>
-						</div><!--- end-team-member --->
-						<div class="col-md-3 team-member">
-							<div class="team-member-info">
-								<label class="team-member-caption text-center">
-									<p>sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem.</p>
-									<ul>
-										<li><a class="t-twitter" href="#"><span> </span></a></li>
-										<li><a class="t-facebook" href="#"><span> </span></a></li>
-										<li><a class="t-googleplus" href="#"><span> </span></a></li>
-										<div class="clearfix"> </div>
-									</ul>
-								</label>
-							</div>
-						</div><!--- end-team-member --->
+						</div>
 						<div class="clearfix"> </div>
 					</div>
 						<div class="clearfix"> </div>

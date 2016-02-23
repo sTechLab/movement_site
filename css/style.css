@@ -25,6 +25,9 @@ body a{
 	float: left;
 	margin-top: 0.25em;
 }
+.logos img{
+		width:60%; 
+}
 .logo a{
 	color: #FFF;
 	font-weight: 700;
@@ -318,6 +321,8 @@ nav a#pull {
   width: 100%;
   padding: 0;
   margin: 0;
+  min-height:450px;
+  background-color: #63D4CF;
 }
 .rslides li {
   -webkit-backface-visibility: hidden;
@@ -866,6 +871,9 @@ p.copy a:hover{
 	.divice-demo img{
 		width:80%;
 	}
+	.logos {
+		width:60%; 
+	}
 	.slide-text-info {
 		margin: 0% 0;
 		left: 8%;
@@ -914,6 +922,9 @@ p.copy a:hover{
 .divice-demo img {
      width: 60%;
 }
+	.logos img{
+		width:50%;
+	}
 .slide-text-info h1 {
   font-size: 1.5em;
 }
@@ -952,6 +963,9 @@ p.copy a:hover{
 @media (max-width:768px){
 	.divice-demo img{
 		width: 57%;
+	}
+		.logos img{
+		width:40%;
 	}
 	.slide-text-info {
 		margin: -2% 0 0;
@@ -1033,6 +1047,9 @@ p.copy a:hover{
 	.divice-demo img{
 		width: 47%;
 	}
+		.logos img{
+		width:30%;
+	}
 	.slide-text-info {
 		margin: -4% 0 0;
 		left: 10%;
@@ -1112,6 +1129,9 @@ p.copy a:hover{
 @media (max-width:480px){
 	.divice-demo img{
 		width: 35%;
+	}
+	.logos img{
+		width:30%;
 	}
 	.slide-text-info {
 		margin: -6% 0 0;
@@ -1211,7 +1231,10 @@ p.copy a:hover{
 /*-----320px-mediaquries----*/
 @media (max-width:320px){
 	.divice-demo img{
-		width: 30%;
+		width: 25%;
+	}
+	.logos img{
+		width:10%;
 	}
 	.slide-text-info {
 		margin: -6% 0 0;
