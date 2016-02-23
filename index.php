@@ -89,8 +89,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					 <nav class="top-nav">
 						<ul class="top-nav">
 							<li class="active"><a href="#home" class="scroll">Home </a></li>
-							<li class="page-scroll"><a href="#fea" class="scroll">Foursquare</a></li>
-							<!--<li class="page-scroll"><a href="#gallery" class="scroll">Gallery</a></li>-->
 							<li class="page-scroll"><a href="#about" class="scroll">About </a></li>
 							<li class="contatct-active" class="page-scroll"><a href="#contact" class="scroll">Feedback</a></li>
 						</ul>
@@ -126,33 +124,37 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		  </script>
 		<!----//End-slider-script---->
 		<!-- Slideshow 4 -->
-			<div  id="top" class="callbacks_container">
+			<div  id="top" class="callbacks_container" width="400px">
 			  <ul class="rslides" id="slider4">
 				<li>
 				  <img src="images/slide.jpg" alt="">
 				  <div class="caption text-center">
 					<div class="slide-text-info">
 						<h1>Introducing <span>Movement</span></h1>
-						<h2>A Community Awareness Application and Display</h2>
+						<h2>Building Community Anonymously</h2>
 						<div class="slide-text">
 							<ul>
-								<li><span> </span>Securely track your location and see the places you go</li>
+								<li><span> </span>Contribute to the CSCW community display</li>
 								<li><span> </span>See what other attendees have been to the same places as you</li>
-								<li><span> </span>Add your data to the CSCW display</li>
+								<li><span> </span>Securely track your location and see the places you go</li>
 							</ul>
 						</div>
-						<div class="clearfix"> </div>
-						<div class="big-btns">
-							<a class="download" href="#"><label> </label>Download for iPhone</a>
-							<a class="droid" href="android-movement.apk"><label> </label>Download for Android</a> 
-
-				</div>
-				<div class="android">(For Android, developer mode must be enabled. To enable, follow <a href="http://www.greenbot.com/article/2457986/how-to-enable-developer-options-on-your-android-phone-or-tablet.html" target="blank">these steps</a>.)</div>
-						<div class="clearfix"> </div>
+					</br>
+					<div class="big-btns">
+							<a class="apple" href="//nyc.us12.list-manage.com/subscribe/post?u=29fc6ecc44ebe11b0169accfe&amp;id=f0404ba663" target="blank"><label> </label>Download for iPhone</a>
+							<a class="droid" href="//nyc.us12.list-manage.com/subscribe/post?u=29fc6ecc44ebe11b0169accfe&amp;id=74b6dbe63c" target="blank"><label> </label>Download for Android</a>
+					</div>
 						<div class="slide-text">
+							<ul>
+								<span></span>Don't want to download Movement but still want to contribute your venues to the CSCW display? Use your Foursquare account!
+							</ul>
 						</div>
-						<div class="clearfix"> </div>
+					<div class="big-btns">
+						
+							<a class="view" ><button onclick="hello('windows').login()"><label> </label>Login with Foursquare</button></a>
+					</div>
 
+					</div>
 					</div>
 				  </div>
 				</li>
@@ -222,48 +224,13 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 -->
 			  </ul>
 			</div>
-			<div class="clearfix"> </div>
-			<!-----divice----->
 				<div class="divice-demo">
-					<img src="images/divice-in-hand.png" title="demo" />
+					<img src="images/divice-in-hand.png" title="Movement in hand" />
 				</div>
 			<!---//divice----->
 		<!----- //End-slider---->
 		</div>
-		<!-----//header-section----->
-		<!----features----->
-		<script src='../js/hello.js'></script>
-		<div id="fea" class="features">
-			<div class="container">
-				<div class="section-head text-center">
-					<h3><span class="frist"> </span>Foursquare<span class="second"> </span></h3>
-					<p>Don't want to download Movement but still want to contribute your venues to the CSCW display? Use your Foursquare account!</p>
-					
 
-					<div class="big-btns">
-						
-							<a class="view" ><button onclick="hello('windows').login()"><label> </label>Login with Foursquare</button></a>
-					</div>
-				</div>
-
-				<script>
-hello.on('auth.login', function(r){
-	// Get Profile
-	console.log("auth.login");
-	hello.api(r.network+':/me', function(p){
-		document.getElementById(r.network).innerHTML = "<img src='"+ p.thumbnail + "' width=24/>Connected to "+ r.network+" as " + p.name;
-	});
-});
-hello.init({
-	foursquare : 'FDR014HMCPJXFXVWAXK0MOE5HENT4M41XOLXSMQQSLEI55UY3'
-},	{redirect_uri:'http://s.tech.nyc/movement'});
-</script>
-				<!----features-grids----->
-						
-					</div><!---end-features-grid---->
-					<div class="clearfix"> </div>
-				</div>
-			</div>
 				<!----//features-grids----->
 				<!----//features----->
 				<!----screen-shot-gallery---->
@@ -465,14 +432,13 @@ with others who visited the same locations. </p><p>To learn more about the proje
 				</div>	
 			</div>
 		</div>
-		<!---//getintouch----->
-		<!-----footer----->
+
 		<div class="footer">
 			<div class="container">
 				<div class="footer-grids">
 					<div class="col-md-3 footer-grid about-info">
 						<a href="#"><img src="images/logo.png" title="Movement" /></a>
-						<p>A Secure Commmunity Awareness Application and Display</p>
+						<p>Building Community Anonymously</p>
 					</div>
 					<div class="col-md-3 footer-grid subscribe">
 						<h3>Subscribe </h3>
