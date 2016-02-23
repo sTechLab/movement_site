@@ -144,9 +144,10 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						<div class="clearfix"> </div>
 						<div class="big-btns">
 							<a class="download" href="#"><label> </label>Download for iPhone</a>
-							<a class="droid" href="#"><label> </label>Download for Android</a>
+							<a class="droid" href="android-movement.apk"><label> </label>Download for Android</a> 
 
 				</div>
+				<div class="android">(For Android, developer mode must be enabled. To enable, follow <a href="http://www.greenbot.com/article/2457986/how-to-enable-developer-options-on-your-android-phone-or-tablet.html" target="blank">these steps</a>.)</div>
 						<div class="clearfix"> </div>
 						<div class="slide-text">
 						</div>

@@ -433,6 +433,19 @@ nav a#pull {
 	margin: 1.5em 2em;
 	display: block;
 }
+
+.android{
+	margin: 1.5em 2em;
+	display: block;
+	color: #808080;
+	font-size: 0.75em;
+	font-weight: 100;
+}
+
+.android a{
+	color: #808080;
+}
+
 .big-btns a{
 	display: inline-block;
 	border: 3px solid #282528;
