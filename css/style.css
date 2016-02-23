@@ -50,6 +50,7 @@ body a{
 	-ms-box-shadow: 0px 0px 4px #C9C9C9;
 	
 }
+
 .top-nav ul li a{
 	color: #7E7C7E;
 	padding: 0.2em 1.5em;
@@ -187,6 +188,7 @@ nav a#pull {
   -webkit-box-shadow: none;
   margin: 0 auto;
 }
+
 .rslides_tabs {
   list-style: none;
   padding: 0;
@@ -321,7 +323,7 @@ nav a#pull {
   width: 100%;
   padding: 0;
   margin: 0;
-  min-height:450px;
+  min-height:500px;
   background-color: #63D4CF;
 }
 .rslides li {
@@ -401,10 +403,10 @@ nav a#pull {
 	font-size:1.3em;
 } 
 .slide-text-info{
-	margin: 2.5% 0;
 	text-align: left;
 	position: absolute;
 	left: 16%;
+	margin-right: 50%;
 }
 .slide-text p{
 	font-size: 0.872em;
@@ -413,6 +415,14 @@ nav a#pull {
 	font-weight: 200;
 	line-height: 1.6em;
 	margin-bottom: 1em;
+}
+.foursquare p{
+	color:#282528;
+	font-size: 0.872em;
+	font-weight: 200;
+	text-align: left;
+	position: relative;
+	margin-right:50%;
 }
 /*----*/
 .btn1{
@@ -934,6 +944,11 @@ p.copy a:hover{
 .slide-text ul li {
   font-size: 14px;
 }
+
+.foursquare p{
+	font-size: 14px;
+}
+
 .big-divice{
 	text-align:center;
 }
@@ -999,6 +1014,12 @@ p.copy a:hover{
 	.slide-text ul li{
 		font-size:0.8em;
 	}
+
+.foursquare p{
+	font-size: 0.8em;
+}
+
+
 	.slide-text ul li:nth-child(2){
 		display:none;
 	}
@@ -1080,6 +1101,11 @@ p.copy a:hover{
 	.slide-text ul li{
 		font-size:0.8em;
 	}
+
+.foursquare p{
+	font-size: 0.8em;
+}
+
 	.slide-text ul li:nth-child(2){
 		display:none;
 	}
@@ -1170,6 +1196,11 @@ p.copy a:hover{
 	.slide-text ul li{
 		font-size: 0.7em;
 	}
+
+	.foursquare p{
+	font-size: 0.7em;
+}
+
 	.slide-text ul li:nth-child(2){
 		display:none;
 	}
@@ -1276,6 +1307,12 @@ p.copy a:hover{
 	.slide-text ul li{
 		font-size: 0.7em;
 	}
+
+.foursquare p{
+	font-size: 0.7em;
+}
+
+
 	.slide-text ul li:nth-child(2){
 		display:none;
 	}

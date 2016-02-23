@@ -138,20 +138,21 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 								<li><span> </span>See what other attendees have been to the same places as you</li>
 								<li><span> </span>Securely track your location and see the places you go</li>
 							</ul>
-						</div>
-					</br>
+							</br>
 					<div class="big-btns">
 							<a class="apple" href="//nyc.us12.list-manage.com/subscribe/post?u=29fc6ecc44ebe11b0169accfe&amp;id=f0404ba663" target="blank"><label> </label>Download for iPhone</a>
 							<a class="droid" href="//nyc.us12.list-manage.com/subscribe/post?u=29fc6ecc44ebe11b0169accfe&amp;id=74b6dbe63c" target="blank"><label> </label>Download for Android</a>
 					</div>
-						<div class="slide-text">
-							<ul>
-								<span></span>Don't want to download Movement but still want to contribute your venues to the CSCW display? Use your Foursquare account!
-							</ul>
+
+						</div>
+					
+
+						<div class="foursquare">
+							<p>Don't want to download Movement but still want to contribute your venues to the CSCW display? Use your Foursquare account!
+							</p>
 						</div>
 					<div class="big-btns">
-						
-							<a class="view" ><button onclick="hello('windows').login()"><label> </label>Login with Foursquare</button></a>
+							<a class="view" ><label> </label>Login with Foursquare</a>
 					</div>
 
 					</div>
