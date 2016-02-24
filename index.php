@@ -141,8 +141,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 							<br><br></br>
 						</div>
 						<div class="big-btns">
-							<a class="apple" href="//nyc.us12.list-manage.com/subscribe/post?u=29fc6ecc44ebe11b0169accfe&amp;id=f0404ba663" target="blank"><label> </label>Download for iPhone</a>
-							<a class="droid" href="//nyc.us12.list-manage.com/subscribe/post?u=29fc6ecc44ebe11b0169accfe&amp;id=74b6dbe63c" target="blank"><label> </label>Download for Android</a>
+							<a class="apple" href="//docs.google.com/forms/d/1kJ_i2BsTMZMV5yxfNyyGet7T_RvoGLxtQS0WJzGGP5I/viewform" target="blank"><label> </label>Download for iPhone</a>
+							<a class="droid" href="//docs.google.com/forms/d/1Db-MtHXTOYqneEpt1IKzeq-jUa0ROWUXRUuAGIJMxLM/viewform" target="blank"><label> </label>Download for Android</a>
 						</div>
 						<br>
 						<div class="foursquare">
