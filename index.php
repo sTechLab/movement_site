@@ -134,19 +134,17 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						<h2>Building Community Anonymously</h2>
 						<div class="slide-text">
 							<ul>
-								<li><span> </span>Contribute to the CSCW community display</li>
-								<li><span> </span>See what other attendees have been to the same places as you</li>
-								<li><span> </span>Securely track your location and see the places you go</li>
+								<li><span> </span>Privately keep track of the venues you visit</li>
+								<li><span> </span>Anonymously contribute popular places to the CSCW Community Display</li>
+								<li><span> </span>Sign and view the secret guestbook for the places you go</li>
 							</ul>
-							</br>
-					<div class="big-btns">
+							<br><br></br>
+						</div>
+						<div class="big-btns">
 							<a class="apple" href="//nyc.us12.list-manage.com/subscribe/post?u=29fc6ecc44ebe11b0169accfe&amp;id=f0404ba663" target="blank"><label> </label>Download for iPhone</a>
 							<a class="droid" href="//nyc.us12.list-manage.com/subscribe/post?u=29fc6ecc44ebe11b0169accfe&amp;id=74b6dbe63c" target="blank"><label> </label>Download for Android</a>
-					</div>
-
 						</div>
-					
-
+						<br>
 						<div class="foursquare">
 							<p>Don't want to download Movement but still want to contribute your venues to the CSCW display? Use your Foursquare account!
 							</p>
