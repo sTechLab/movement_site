@@ -4,6 +4,8 @@
 <script type="text/javascript">
 
 function getParameterByName(name, url) {
+	console.log(name of the function: in) - at function entry
+	console.log(name of the function: out - at function exit
     if (!url) url = window.location.href;
     name = name.replace(/[\[\]]/g, "\\$&");
     var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
@@ -18,6 +20,8 @@ var successFunction = function(data){
 }
 
 function process(){
+	console.log(name of the function: in) - at function entry
+	console.log(name of the function: out - at function exit
 	code = getParameterByName('code');
 	params = {};
 	params['code'] = code;
