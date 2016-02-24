@@ -4,8 +4,7 @@
 <script type="text/javascript">
 
 function getParameterByName(name, url) {
-	console.log(name of the function: in) - at function entry
-	console.log(name of the function: out - at function exit
+	console.log(getParameterByName: in) ;
     if (!url) url = window.location.href;
     name = name.replace(/[\[\]]/g, "\\$&");
     var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
@@ -13,6 +12,7 @@ function getParameterByName(name, url) {
     if (!results) return null;
     if (!results[2]) return '';
     return decodeURIComponent(results[2].replace(/\+/g, " "));
+	console.log(getParameterByName: out);
 }
 
 var successFunction = function(data){
@@ -20,8 +20,7 @@ var successFunction = function(data){
 }
 
 function process(){
-	console.log(name of the function: in) - at function entry
-	console.log(name of the function: out - at function exit
+	console.log(process: in);
 	code = getParameterByName('code');
 	params = {};
 	params['code'] = code;
@@ -30,6 +29,7 @@ function process(){
 	  url: 'http://54.152.112.50:3000/fsq/register/',
 	  data: params,
 	  success: successFunction,
+	console.log(process: out);
 });
 
 }
