@@ -1,0 +1,40 @@
+<html>
+<head>
+<script src="js/jquery.min.js"></script>
+<script type="text/javascript">
+
+function getParameterByName(name, url) {
+    if (!url) url = window.location.href;
+    name = name.replace(/[\[\]]/g, "\\$&");
+    var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+        results = regex.exec(url);
+    if (!results) return null;
+    if (!results[2]) return '';
+    return decodeURIComponent(results[2].replace(/\+/g, " "));
+}
+
+var successFunction = function(data){
+	window.location.replace("http://s.tech.cornell.edu/movement");
+}
+
+function process(){
+	code = getParameterByName('code');
+	params = {};
+	params['code'] = code;
+	$.ajax({
+  	  type: "POST",
+	  url: 'http://54.152.112.50:3000/fsq/register/',
+	  data: params,
+	  success: successFunction,
+});
+
+}
+
+</script>
+
+</head>
+<body onload="process()" >
+	
+
+</body>
+</html>

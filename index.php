@@ -152,7 +152,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 							</p>
 						</div>
 					<div class="big-btns">
-							<a class="view" ><label> </label>Login with Foursquare</a>
+							<a  href="https://foursquare.com/oauth2/authenticate?client_id=R45DAJAM3NA0RUQUSRGETDN32HKG3LAC3K54Y11MM5KEUTWH&response_type=code&redirect_uri=https://s.tech.cornell.edu/movement/foursquare.html" class="view" ><label> </label>Login with Foursquare</a>
 					</div>
 
 					</div>
