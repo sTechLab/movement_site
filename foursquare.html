@@ -16,7 +16,7 @@ function getParameterByName(name, url) {
 }
 
 var successFunction = function(data){
-	window.location.replace("http://s.tech.cornell.edu/movement");
+	window.location.replace("https://s.tech.cornell.edu/movement");
 }
 
 function process(){
@@ -26,7 +26,7 @@ function process(){
 	params['code'] = code;
 	$.ajax({
   	  type: "POST",
-	  url: 'http://54.152.112.50:3000/fsq/register/',
+	  url: '54.152.112.50:3000/fsq/register/',
 	  data: params,
 	  success: "successFunction:in",
 });
