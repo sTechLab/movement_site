@@ -25,9 +25,10 @@ body a{
 	float: left;
 	margin-top: 0.25em;
 }
-.logos img{
+.logos {
 		width:60%; 
 }
+
 .logo a{
 	color: #FFF;
 	font-weight: 700;
