@@ -1267,6 +1267,7 @@ p.copy a:hover{
 	}
 	.logos img{
 		width:10%;
+		text-align: center;
 	}
 	.slide-text-info {
 		margin: -6% 0 0;

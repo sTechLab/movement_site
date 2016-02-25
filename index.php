@@ -224,7 +224,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			  </ul>
 			</div>
 				<div class="divice-demo">
-					<img src="images/divice-in-hand.png" title="Movement in hand" />
+					<img src="images/device-in-hand.png" title="Movement in hand" />
 				</div>
 			<!---//divice----->
 		<!----- //End-slider---->
@@ -426,7 +426,7 @@ with others who visited the same locations. </p><p>To learn more about the proje
 				</div>
 				<div class="col-md-2 getintouch-left">
 					<div class="footer-divice">
-						<img src="images/divice-half.png" title="getintouch" />
+						<img src="images/device-half.png" title="getintouch" />
 					</div>
 				</div>	
 			</div>
