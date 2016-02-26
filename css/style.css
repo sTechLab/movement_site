@@ -39,6 +39,7 @@ body a{
 .logo320{
 	display:none;
 }
+
 /*----navbar-nav----*/
 .top-header{
 	background: #FFf;
@@ -444,6 +445,7 @@ nav a#pull {
 	font-weight: 500;
 	margin: 0 0 0.3em;
 }
+
 /*----*/
 .big-btns{
 	margin: 1.5em 2em;
@@ -900,7 +902,7 @@ p.copy a:hover{
 		padding: 0.9em 1em;
 	}
 	.footer-divice img{
-		width:100%;
+		width:200%;
 	}
 	.footer-divice{
 		margin-top:15em;
@@ -932,6 +934,7 @@ p.copy a:hover{
 }
 .divice-demo img {
      width: 60%;
+     margin-bottom: 160%;
 }
 	.logos img{
 		width:50%;
@@ -979,6 +982,7 @@ p.copy a:hover{
 @media (max-width:768px){
 	.divice-demo img{
 		width: 57%;
+		margin-bottom: 100%;
 	}
 		.logos img{
 		width:40%;
@@ -997,7 +1001,7 @@ p.copy a:hover{
 		top:0;
 	}
 	.footer-divice img{
-		width: initial;
+		width: 150%;
 	}
 	.footer-divice{
 		margin-top:1em;
@@ -1061,7 +1065,7 @@ p.copy a:hover{
 		  padding: 0.3em 1.5em;
     }
     .footer-divice img {
-        width: 25%;
+        width: 40%;
     }
 }
 /*-----640px-mediaquries----*/
@@ -1155,10 +1159,11 @@ p.copy a:hover{
 /*-----480px-mediaquries----*/
 @media (max-width:480px){
 	.divice-demo img{
-		width: 35%;
+		width: 50%;
+		margin-bottom: 40%;
 	}
-	.logos img{
-		width:30%;
+	.logos {
+		margin-left: 60%;
 	}
 	.slide-text-info {
 		margin: -6% 0 0;
@@ -1176,8 +1181,13 @@ p.copy a:hover{
 		padding:2em;
 		top:0;
 	}
+
+	.team-member-info img.member-pic{
+		margin-left: -60%
+	}
+
 	.footer-divice img{
-		width: initial;
+		width: 40%;
 	}
 	.footer-divice{
 		margin-top:1em;
@@ -1286,7 +1296,7 @@ p.copy a:hover{
 		top:0;
 	}
 	.footer-divice img {
-      width: 45%;
+      width: 60%;
     }
 	.footer-divice{
 		margin-top:1em;

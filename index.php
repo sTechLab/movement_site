@@ -142,21 +142,28 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						</div>
 						<div class="big-btns">
 							<a class="apple" href="//docs.google.com/forms/d/1kJ_i2BsTMZMV5yxfNyyGet7T_RvoGLxtQS0WJzGGP5I/viewform" target="blank"><label> </label>Download for iPhone</a>
+							<br><br>
 							<a class="droid" href="//docs.google.com/forms/d/1Db-MtHXTOYqneEpt1IKzeq-jUa0ROWUXRUuAGIJMxLM/viewform" target="blank"><label> </label>Download for Android</a>
 						</div>
-						<br>
-						<div class="foursquare">
+
+						<!--<div class="foursquare">
 							<p>Don't want to download Movement but still want to contribute your venues to the CSCW display? Use your Foursquare account!
 							</p>
 						</div>
 					<div class="big-btns">
 							<a  href="https://foursquare.com/oauth2/authenticate?client_id=R45DAJAM3NA0RUQUSRGETDN32HKG3LAC3K54Y11MM5KEUTWH&response_type=code&redirect_uri=https://s.tech.cornell.edu/movement/foursquare.html" class="view" ><label> </label>Login with Foursquare</a>
+					</div>-->
+
+
 					</div>
 
 					</div>
-					</div>
-				  </div>
+
+					
+				</div>
+
 				</li>
+
 				<!--<li>
 				  <img src="images/slide.jpg" alt="">
 				  <div class="caption text-center">
@@ -223,9 +230,9 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 -->
 			  </ul>
 			</div>
-				<div class="divice-demo">
+							<div class="divice-demo">
 					<img src="images/device-in-hand.png" title="Movement in hand" />
-				</div>
+					</div>
 			<!---//divice----->
 		<!----- //End-slider---->
 		</div>
@@ -393,7 +400,7 @@ with others who visited the same locations. </p><p>To learn more about the proje
 				</div>
 				<!---->
 
-<
+
 
 				<div class="col-md-9 getintouch-left">
 					<div class="contact-form col-md-10">
