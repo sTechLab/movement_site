@@ -344,7 +344,9 @@ nav a#pull {
 .rslides img {
   height: auto;
   border: 0;
-  width:100%;
+  width: 60%;
+  margin-left: 150%;
+  margin-top: -100%;
 }
 .callbacks_tabs{
 	list-style: none;
@@ -881,6 +883,14 @@ p.copy a:hover{
 }
 /*--responsive design--*/
 @media (max-width:1280px){
+	.rslides img {
+  height: auto;
+  border: 0;
+  width: 30%;
+  margin-left: 60%;
+  margin-top: -30%;
+}
+
 	.divice-demo img{
 		width:80%;
 	}
@@ -980,6 +990,12 @@ p.copy a:hover{
 }
 /*-----768px-mediaquries----*/
 @media (max-width:768px){
+	.rslides img {
+  width: 40%;
+  margin-left: 50%;
+  margin-top: -30%;
+}
+
 	.divice-demo img{
 		width: 57%;
 		margin-bottom: 100%;
@@ -1158,9 +1174,21 @@ p.copy a:hover{
 }
 /*-----480px-mediaquries----*/
 @media (max-width:480px){
+
+.rslides {
+	min-height: 300px;
+}
+
+	.rslides img {
+  height: auto;
+  border: 0;
+  width: 40%;
+  margin-left: 60%;
+  margin-top: -40%;
+}
+
 	.divice-demo img{
-		width: 50%;
-		margin-bottom: 40%;
+		width: 35%;
 	}
 	.logos {
 		margin-left: 60%;

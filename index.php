@@ -145,7 +145,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 							<br><br>
 							<a class="droid" href="//docs.google.com/forms/d/1Db-MtHXTOYqneEpt1IKzeq-jUa0ROWUXRUuAGIJMxLM/viewform" target="blank"><label> </label>Download for Android</a>
 						</div>
-
+				<img class="divice-demo" src="images/device-in-hand.png" title="Movement in hand" />
 						<!--<div class="foursquare">
 							<p>Don't want to download Movement but still want to contribute your venues to the CSCW display? Use your Foursquare account!
 							</p>
@@ -153,89 +153,15 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					<div class="big-btns">
 							<a  href="https://foursquare.com/oauth2/authenticate?client_id=R45DAJAM3NA0RUQUSRGETDN32HKG3LAC3K54Y11MM5KEUTWH&response_type=code&redirect_uri=https://s.tech.cornell.edu/movement/foursquare.html" class="view" ><label> </label>Login with Foursquare</a>
 					</div>-->
-
-
 					</div>
-
 					</div>
-
-					
-				</div>
-
 				</li>
-
-				<!--<li>
-				  <img src="images/slide.jpg" alt="">
-				  <div class="caption text-center">
-					<div class="slide-text-info">
-						<h1>Introducing <span>Amazing app.</span></h1>
-						<h2>Made to modify and use anywhere</h2>
-						<div class="slide-text">
-							<ul>
-								<li><span> </span>Sed ut perspiciatis unde omnis </li>
-								<li><span> </span>Iste natus erAmaror sit voluptatem accusantium </li>
-								<li><span> </span>doloremque laudantium</li>
-							</ul>
-						</div>
-						<div class="clearfix"> </div>
-						<div class="big-btns">
-							<a class="download" href="#"><label> </label>Download</a>
-							<a class="view" href="#"><label> </label>view gallery</a>
-						</div>
-					</div>
-				  </div>
-				</li>
-				<li>
-				  <img src="images/slide.jpg" alt="">
-				  <div class="caption text-center">
-					<div class="slide-text-info">
-						<h1>Introducing <span>Best app.</span></h1>
-						<h2>Made to modify and use anywhere</h2>
-						<div class="slide-text">
-							<ul>
-								<li><span> </span>Sed ut perspiciatis unde omnis </li>
-								<li><span> </span>Iste natus error sit voluptatem accusantium </li>
-								<li><span> </span>doloremque laudantium</li>
-							</ul>
-						</div>
-						<div class="clearfix"> </div>
-						<div class="big-btns">
-							<a class="download" href="#"><label> </label>Download</a>
-							<a class="view" href="#"><label> </label>view gallery</a>
-						</div>
-					</div>
-				  </div>
-				</li>
-				<li>
-				  <img src="images/slide.jpg" alt="">
-				   <div class="caption text-center">
-				   <div class="slide-text-info">
-						<h1>Introducing <span>Amazing app.</span></h1>
-						<h2>Made to modify and use anywhere</h2>
-						<div class="slide-text">
-							<ul>
-								<li><span> </span>Sed ut perspiciatis unde omnis </li>
-								<li><span> </span>Iste natus error sit voluptatem accusantium </li>
-								<li><span> </span>doloremque laudantium</li>
-							</ul>
-						</div>
-						<div class="clearfix"> </div>
-						<div class="big-btns">
-								<a class="download" href="#"><label> </label>Download</a>
-								<a class="view" href="#"><label> </label>view gallery</a>
-						</div>
-					</div>
-				  </div>
-				</li>
--->
 			  </ul>
 			</div>
-							<div class="divice-demo">
-					<img src="images/device-in-hand.png" title="Movement in hand" />
-					</div>
 			<!---//divice----->
 		<!----- //End-slider---->
 		</div>
+
 
 				<!----//features-grids----->
 				<!----//features----->
@@ -293,6 +219,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					</div>
 					<!--//sreen-gallery-cursual---->
 				</div>
+
 			</div>
 			<!--//screen-shot-gallery---->
 			<!---- show-reel ---->
